@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */; };
+		DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */; };
+		DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */; };
+		DEB4FDEE2C985CEA006AEFF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDED2C985CEA006AEFF4 /* Preview Assets.xcassets */; };
+		DEB4FDF52C9861F9006AEFF4 /* MissonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF42C9861F9006AEFF4 /* MissonView.swift */; };
+		DEB4FDF72C986235006AEFF4 /* HobanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF62C986235006AEFF4 /* HobanView.swift */; };
+		DEB4FDF92C9876BF006AEFF4 /* MissionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */; };
+		DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */; };
+		DED5F0B62C9CF77F0018E0BF /* MissionPerformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEB4FDE32C985CE9006AEFF4 /* swiftdrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftdrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftdriftApp.swift; sourceTree = "<group>"; };
+		DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB4FDED2C985CEA006AEFF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEB4FDF42C9861F9006AEFF4 /* MissonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissonView.swift; sourceTree = "<group>"; };
+		DEB4FDF62C986235006AEFF4 /* HobanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobanView.swift; sourceTree = "<group>"; };
+		DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInfoView.swift; sourceTree = "<group>"; };
+		DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hobanwoo.jpeg; path = swiftdrift/hobanwoo.jpeg; sourceTree = SOURCE_ROOT; };
+		DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPerformView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB4FDE02C985CE9006AEFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB4FDDA2C985CE9006AEFF4 = {
+			isa = PBXGroup;
+			children = (
+				DEB4FDE52C985CE9006AEFF4 /* swiftdrift */,
+				DEB4FDE42C985CE9006AEFF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB4FDE42C985CE9006AEFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4FDE32C985CE9006AEFF4 /* swiftdrift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB4FDE52C985CE9006AEFF4 /* swiftdrift */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */,
+				DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */,
+				DEB4FDF62C986235006AEFF4 /* HobanView.swift */,
+				DEB4FDF42C9861F9006AEFF4 /* MissonView.swift */,
+				DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */,
+				DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */,
+				DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */,
+				DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */,
+				DEB4FDEC2C985CEA006AEFF4 /* Preview Content */,
+			);
+			path = swiftdrift;
+			sourceTree = "<group>";
+		};
+		DEB4FDEC2C985CEA006AEFF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4FDED2C985CEA006AEFF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB4FDE22C985CE9006AEFF4 /* swiftdrift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB4FDF12C985CEA006AEFF4 /* Build configuration list for PBXNativeTarget "swiftdrift" */;
+			buildPhases = (
+				DEB4FDDF2C985CE9006AEFF4 /* Sources */,
+				DEB4FDE02C985CE9006AEFF4 /* Frameworks */,
+				DEB4FDE12C985CE9006AEFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftdrift;
+			productName = swiftdrift;
+			productReference = DEB4FDE32C985CE9006AEFF4 /* swiftdrift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB4FDDB2C985CE9006AEFF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DEB4FDE22C985CE9006AEFF4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DEB4FDDE2C985CE9006AEFF4 /* Build configuration list for PBXProject "swiftdrift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB4FDDA2C985CE9006AEFF4;
+			productRefGroup = DEB4FDE42C985CE9006AEFF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB4FDE22C985CE9006AEFF4 /* swiftdrift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB4FDE12C985CE9006AEFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB4FDEE2C985CEA006AEFF4 /* Preview Assets.xcassets in Resources */,
+				DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */,
+				DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB4FDDF2C985CE9006AEFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB4FDF92C9876BF006AEFF4 /* MissionInfoView.swift in Sources */,
+				DEB4FDF52C9861F9006AEFF4 /* MissonView.swift in Sources */,
+				DED5F0B62C9CF77F0018E0BF /* MissionPerformView.swift in Sources */,
+				DEB4FDF72C986235006AEFF4 /* HobanView.swift in Sources */,
+				DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */,
+				DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEB4FDEF2C985CEA006AEFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEB4FDF02C985CEA006AEFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB4FDF22C985CEA006AEFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftdrift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ezzkim.swiftdrift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB4FDF32C985CEA006AEFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftdrift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ezzkim.swiftdrift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB4FDDE2C985CE9006AEFF4 /* Build configuration list for PBXProject "swiftdrift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB4FDEF2C985CEA006AEFF4 /* Debug */,
+				DEB4FDF02C985CEA006AEFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB4FDF12C985CEA006AEFF4 /* Build configuration list for PBXNativeTarget "swiftdrift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB4FDF22C985CEA006AEFF4 /* Debug */,
+				DEB4FDF32C985CEA006AEFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB4FDDB2C985CE9006AEFF4 /* Project object */;
+}
