@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE32145B2C9D50B70072507F /* NewCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145A2C9D50B70072507F /* NewCamera.swift */; };
+		DE32145E2C9D53280072507F /* MosuDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145D2C9D53280072507F /* MosuDataModel.swift */; };
+		DE3214602C9D54670072507F /* ViewFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145F2C9D54670072507F /* ViewFinderView.swift */; };
+		DE3214622C9ECE110072507F /* DecorateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214612C9ECE110072507F /* DecorateView.swift */; };
+		DE3214642C9EF6ED0072507F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214632C9EF6ED0072507F /* SwiftUIView.swift */; };
+		DE3214682C9F0D4E0072507F /* MissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214672C9F0D4E0072507F /* MissionModel.swift */; };
+		DE32146A2C9F32FC0072507F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214692C9F32FC0072507F /* LocationManager.swift */; };
 		DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */; };
 		DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */; };
 		DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */; };
@@ -16,9 +23,19 @@
 		DEB4FDF92C9876BF006AEFF4 /* MissionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */; };
 		DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */; };
 		DED5F0B62C9CF77F0018E0BF /* MissionPerformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */; };
+		DED5F0B82C9D03D20018E0BF /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B72C9D03D20018E0BF /* CameraViewModel.swift */; };
+		DED5F0BA2C9D03FB0018E0BF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B92C9D03FB0018E0BF /* Camera.swift */; };
+		DED5F0BC2C9D043B0018E0BF /* NewCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0BB2C9D043B0018E0BF /* NewCameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE32145A2C9D50B70072507F /* NewCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCamera.swift; sourceTree = "<group>"; };
+		DE32145D2C9D53280072507F /* MosuDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosuDataModel.swift; sourceTree = "<group>"; };
+		DE32145F2C9D54670072507F /* ViewFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderView.swift; sourceTree = "<group>"; };
+		DE3214612C9ECE110072507F /* DecorateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorateView.swift; sourceTree = "<group>"; };
+		DE3214632C9EF6ED0072507F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		DE3214672C9F0D4E0072507F /* MissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModel.swift; sourceTree = "<group>"; };
+		DE3214692C9F32FC0072507F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DEB4FDE32C985CE9006AEFF4 /* swiftdrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftdrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftdriftApp.swift; sourceTree = "<group>"; };
 		DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +46,9 @@
 		DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInfoView.swift; sourceTree = "<group>"; };
 		DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hobanwoo.jpeg; path = swiftdrift/hobanwoo.jpeg; sourceTree = SOURCE_ROOT; };
 		DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPerformView.swift; sourceTree = "<group>"; };
+		DED5F0B72C9D03D20018E0BF /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		DED5F0B92C9D03FB0018E0BF /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		DED5F0BB2C9D043B0018E0BF /* NewCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE32145C2C9D52ED0072507F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DED5F0B72C9D03D20018E0BF /* CameraViewModel.swift */,
+				DED5F0B92C9D03FB0018E0BF /* Camera.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		DE3214652C9EFC640072507F /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				DEB4FDF62C986235006AEFF4 /* HobanView.swift */,
+				DE3214612C9ECE110072507F /* DecorateView.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		DE3214662C9EFC790072507F /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				DE3214672C9F0D4E0072507F /* MissionModel.swift */,
+				DE3214692C9F32FC0072507F /* LocationManager.swift */,
+				DEB4FDF42C9861F9006AEFF4 /* MissonView.swift */,
+				DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */,
+				DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */,
+				DE32145A2C9D50B70072507F /* NewCamera.swift */,
+				DED5F0BB2C9D043B0018E0BF /* NewCameraView.swift */,
+				DE32145F2C9D54670072507F /* ViewFinderView.swift */,
+				DE32145D2C9D53280072507F /* MosuDataModel.swift */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
 		DEB4FDDA2C985CE9006AEFF4 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +115,12 @@
 		DEB4FDE52C985CE9006AEFF4 /* swiftdrift */ = {
 			isa = PBXGroup;
 			children = (
+				DE32145C2C9D52ED0072507F /* Camera */,
 				DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */,
 				DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */,
-				DEB4FDF62C986235006AEFF4 /* HobanView.swift */,
-				DEB4FDF42C9861F9006AEFF4 /* MissonView.swift */,
-				DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */,
-				DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */,
+				DE3214652C9EFC640072507F /* 1 */,
+				DE3214662C9EFC790072507F /* 2 */,
+				DE3214632C9EF6ED0072507F /* SwiftUIView.swift */,
 				DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */,
 				DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */,
 				DEB4FDEC2C985CEA006AEFF4 /* Preview Content */,
@@ -153,12 +207,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED5F0BA2C9D03FB0018E0BF /* Camera.swift in Sources */,
 				DEB4FDF92C9876BF006AEFF4 /* MissionInfoView.swift in Sources */,
 				DEB4FDF52C9861F9006AEFF4 /* MissonView.swift in Sources */,
+				DED5F0BC2C9D043B0018E0BF /* NewCameraView.swift in Sources */,
+				DE32146A2C9F32FC0072507F /* LocationManager.swift in Sources */,
 				DED5F0B62C9CF77F0018E0BF /* MissionPerformView.swift in Sources */,
 				DEB4FDF72C986235006AEFF4 /* HobanView.swift in Sources */,
+				DE3214602C9D54670072507F /* ViewFinderView.swift in Sources */,
+				DED5F0B82C9D03D20018E0BF /* CameraViewModel.swift in Sources */,
+				DE3214642C9EF6ED0072507F /* SwiftUIView.swift in Sources */,
+				DE32145E2C9D53280072507F /* MosuDataModel.swift in Sources */,
+				DE3214622C9ECE110072507F /* DecorateView.swift in Sources */,
+				DE3214682C9F0D4E0072507F /* MissionModel.swift in Sources */,
 				DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */,
 				DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */,
+				DE32145B2C9D50B70072507F /* NewCamera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +356,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftdrift/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W62FS2UWY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 접근 권한";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 접근 권한";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "앨범 저장 접근 권한";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,8 +388,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftdrift/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W62FS2UWY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 접근 권한";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 접근 권한";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "앨범 저장 접근 권한";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
