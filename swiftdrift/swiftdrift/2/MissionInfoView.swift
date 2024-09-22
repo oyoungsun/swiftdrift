@@ -83,6 +83,7 @@ struct MissionInfoView: View {
 
                     
                     locationManager.requestLocationAuthorization()
+                    print(selectedMission!.pass)
                 }
                 
                 NavigationLink(destination: NewCameraView(missionName: mission.name),
@@ -107,6 +108,8 @@ struct MissionInfoView: View {
             .navigationBarTitle(mission.name, displayMode: .inline)
             .toolbar(.hidden, for: .tabBar)
             .toolbarBackground(.hidden, for: .navigationBar)
+            
+
         }
     }
     

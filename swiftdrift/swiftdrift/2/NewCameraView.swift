@@ -21,7 +21,13 @@ struct NewCameraView: View {
     
     var missionName: String
     
-    var filteredMission: String = ""
+    @Query var missions: [Mission]
+    
+    
+    var filteredMission: Mission? {
+        return self.missions.filter({ $0.name == missionName }).first
+    }
+    
     
     var body: some View {
         GeometryReader { geometry in
@@ -29,9 +35,16 @@ struct NewCameraView: View {
                 ViewfinderView(image: $model.viewfinderImage)
                     .overlay(alignment: .bottom) {
                         // Unwrapping
-                        if model.resultString == missionName { //filteredCat에 걸리는 고양이가 있으면 그걸 foundCat으로 담고, foundView에서 보여줌
-                            foundView(missionName: missionName)
-                        } else {
+                        if isfounded {
+                            if model.resultString == missionName { //filteredCat에 걸리는 고양이가 있으면 그걸 foundCat으로 담고, foundView에서 보여줌
+                                foundView(missionName: missionName)
+                            }
+                            else {
+                                unfoundView()
+                            }
+                            
+                            
+                        }else {
                             VStack {
                                 HStack(spacing: 8) {
                                     Button(action: {
@@ -45,7 +58,7 @@ struct NewCameraView: View {
                                     .frame(width: selectedFactor == 1 ? 35 : 25, height: selectedFactor == 1 ? 35 : 25)
                                     .background(Color.black.opacity(0.8))
                                     .clipShape(Circle())
-
+                                    
                                     Button(action: {
                                         selectedFactor = 2
                                         self.viewModel.zoom(factor: 2)
@@ -64,7 +77,8 @@ struct NewCameraView: View {
                                     .background(.black)
                             }
                         }
-                    }                    .background(.black)
+                    }
+                    .background(.black)
             }
         }
         .animation(.snappy(duration: 0.3), value: selectedFactor)
@@ -82,7 +96,8 @@ struct NewCameraView: View {
             Button {
                 model.camera.takePhoto()
                 model.resultString = ""
-                //                isfounded = true
+                isfounded = true
+                
             } label: {
                 Circle()
                     .foregroundStyle(Color.secondary)
@@ -117,31 +132,11 @@ struct NewCameraView: View {
     @ViewBuilder
     private func foundView(missionName: String) -> some View {
         VStack{
-//            HStack {
-//                VStack(alignment: .leading){
-                    Text("\(model.resultString)를 찾았어요!🎉🎉")
-//                    Text("\(cat.realName)를 찾았어요!🎉🎉")
-//                        .foregroundStyle(.white)
-//                        .font(.title3)
-//                        .padding(.vertical)
-//                    if cat.meetCount == 1 {
-//                        Text("처음 만나는 냥이 안녕 👋")
-//                            .foregroundStyle(.white)
-//                    } else {
-//                        Text("\(cat.meetCount)번째 만남이예요👋")
-//                            .foregroundStyle(.white)
-//                    }
-//                    
-//                }
-//                .padding(20)
-//                Spacer()
-//                Image(cat.assetName)
-//                    .resizable()
-//                    .frame(width: 110, height: 110)
-//                    .padding(.vertical, 15)
-//                Spacer()
-//
-//            }
+            
+            Text("\(model.resultString)를 찾았어요!🎉🎉")
+                .font(.title3)
+                .padding(.vertical)
+            
             HStack(spacing: 10) {
                 Button{
                     isfounded.toggle()
@@ -154,10 +149,8 @@ struct NewCameraView: View {
                         .cornerRadius(20)
                 }
                 
-                Button{
-                    isfounded.toggle()
-                    model.resultString = ""
-                } label: {
+                NavigationLink(destination: ContentView().toolbar(.hidden, for: .navigationBar)
+) {
                     Text("도감에 추가하기!")
                         .font(.title3)
                         .fontWeight(.bold)
@@ -166,7 +159,44 @@ struct NewCameraView: View {
                         .background(Color.accentColor)
                         .cornerRadius(20)
                 }
+                .simultaneousGesture(TapGesture().onEnded{
+                    isfounded.toggle()
+                    model.resultString = ""
+                    filteredMission!.pass = true })
+                
+                
+                
+                
             }
+            Spacer().frame(height:20)
+            
+            
+        }
+        .frame(maxWidth: .infinity, maxHeight: 210)
+        .background(.thickMaterial)
+        .cornerRadius(20, corners: [.topLeft, .topRight])
+    }
+    
+    @ViewBuilder
+    private func unfoundView() -> some View {
+        VStack{
+            
+            Text("아무것도 찾지 못했어요 🥹")
+                .font(.title3)
+                .padding(.vertical)
+            
+            Button{
+                isfounded.toggle()
+                model.resultString = ""
+            } label: {Text("취소")
+                    .font(.title3)
+                    .foregroundStyle(Color.white)
+                    .frame(width: 120, height: 60)
+                    .background(Color.secondary)
+                    .cornerRadius(20)
+            }
+            
+            
             Spacer().frame(height:20)
             
             

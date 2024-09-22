@@ -24,6 +24,10 @@
 		DEB4FDF72C986235006AEFF4 /* HobanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF62C986235006AEFF4 /* HobanView.swift */; };
 		DEB4FDF92C9876BF006AEFF4 /* MissionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */; };
 		DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */; };
+		DED572A92CA00C0D00D1A728 /* 솔로문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A52CA00C0D00D1A728 /* 솔로문.png */; };
+		DED572AA2CA00C0D00D1A728 /* 북문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A62CA00C0D00D1A728 /* 북문.png */; };
+		DED572AB2CA00C0D00D1A728 /* 정문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A72CA00C0D00D1A728 /* 정문.png */; };
+		DED572AC2CA00C0D00D1A728 /* 서문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A82CA00C0D00D1A728 /* 서문.png */; };
 		DED5F0B62C9CF77F0018E0BF /* MissionPerformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */; };
 		DED5F0B82C9D03D20018E0BF /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B72C9D03D20018E0BF /* CameraViewModel.swift */; };
 		DED5F0BA2C9D03FB0018E0BF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B92C9D03FB0018E0BF /* Camera.swift */; };
@@ -49,6 +53,10 @@
 		DEB4FDF62C986235006AEFF4 /* HobanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobanView.swift; sourceTree = "<group>"; };
 		DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInfoView.swift; sourceTree = "<group>"; };
 		DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hobanwoo.jpeg; path = swiftdrift/hobanwoo.jpeg; sourceTree = SOURCE_ROOT; };
+		DED572A52CA00C0D00D1A728 /* 솔로문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "솔로문.png"; sourceTree = "<group>"; };
+		DED572A62CA00C0D00D1A728 /* 북문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "북문.png"; sourceTree = "<group>"; };
+		DED572A72CA00C0D00D1A728 /* 정문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "정문.png"; sourceTree = "<group>"; };
+		DED572A82CA00C0D00D1A728 /* 서문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "서문.png"; sourceTree = "<group>"; };
 		DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPerformView.swift; sourceTree = "<group>"; };
 		DED5F0B72C9D03D20018E0BF /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 		DED5F0B92C9D03FB0018E0BF /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
@@ -128,6 +136,10 @@
 				DE3214632C9EF6ED0072507F /* SwiftUIView.swift */,
 				DE3214712C9F478D0072507F /* swiftdrift1.mlmodel */,
 				DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */,
+				DED572A62CA00C0D00D1A728 /* 북문.png */,
+				DED572A82CA00C0D00D1A728 /* 서문.png */,
+				DED572A52CA00C0D00D1A728 /* 솔로문.png */,
+				DED572A72CA00C0D00D1A728 /* 정문.png */,
 				DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */,
 				DEB4FDEC2C985CEA006AEFF4 /* Preview Content */,
 			);
@@ -201,8 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB4FDEE2C985CEA006AEFF4 /* Preview Assets.xcassets in Resources */,
+				DED572AC2CA00C0D00D1A728 /* 서문.png in Resources */,
 				DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */,
+				DED572A92CA00C0D00D1A728 /* 솔로문.png in Resources */,
 				DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */,
+				DED572AB2CA00C0D00D1A728 /* 정문.png in Resources */,
+				DED572AA2CA00C0D00D1A728 /* 북문.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

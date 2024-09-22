@@ -49,7 +49,7 @@ struct MissonView: View {
                     pinnedViews: [],
                     content: {
                         Section(header:
-                                    Text("📍 학식먹기")
+                                    Text("📍 문지기 문지기 문열어라")
                             .foregroundStyle(Color.gray)
                             .font(.title3)
                             .fontWeight(.bold)
@@ -59,8 +59,17 @@ struct MissonView: View {
                                 NavigationLink(destination: MissionInfoView(selectedMission: $selectedMission),
                                                label:{
                                     VStack {
-                                        RoundedRectangle(cornerRadius: 10)
-                                            .frame(width: 100, height: 100)
+                                        
+                                        ZStack{
+                                            RoundedRectangle(cornerRadius: 10)
+                                                .frame(width: 100, height: 100)
+
+                                            Image(mission.name)
+                                                .resizable()
+                                                .scaledToFit()
+
+                                                .frame(width: 100, height: 100)
+                                        }
                                         
                                         Text(mission.name)
                                             .foregroundColor(.secondary)
@@ -72,7 +81,7 @@ struct MissonView: View {
                         }
                         
                         Section(header:
-                                    Text("📍 본관 정원")
+                                    Text("📍 학식 먹자 했자나")
                             .foregroundStyle(Color.gray)
                             .font(.title3)
                             .fontWeight(.bold)

@@ -14,29 +14,9 @@ final class MosuDataModel: ObservableObject {
 
     @Published var viewfinderImage: Image?
     @Published var thumbnailImage: Image?
-    @Published var resultString: String = "Initial"
+    @Published var resultString: String = ""
 
     var isPhotosLoaded = false
-    
-//    // 줌 기능
-//    var currentZoomFactor: CGFloat = 1.0
-//    var lastScale: CGFloat = 1.0
-//
-//
-//    // ✅ 추가: onChange에 호출하는 줌 기능
-//        func zoom(factor: CGFloat) {
-//            let delta = factor / lastScale
-//            lastScale = factor
-//
-//            let newScale = min(max(currentZoomFactor * delta, 1), 5)
-//            camera.zoom(newScale)
-//            currentZoomFactor = newScale
-//        }
-//
-//        // ✅ 추가: onEnded에 호출하는 줌 기능
-//        func zoomInitialize() {
-//            lastScale = 1.0
-//        }
     
     init() {
         Task {
