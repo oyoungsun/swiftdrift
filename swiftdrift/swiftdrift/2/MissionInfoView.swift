@@ -85,8 +85,8 @@ struct MissionInfoView: View {
                     locationManager.requestLocationAuthorization()
                 }
                 
-                NavigationLink(destination: NewCameraView(),
-                               label: {
+                NavigationLink(destination: NewCameraView(missionName: mission.name),
+                               isActive: .constant(isNearMission())) {
                     Text("미션하기")
                         .font(.system(size: 17))
                         .fontWeight(.semibold)
@@ -94,9 +94,11 @@ struct MissionInfoView: View {
                         .padding(.horizontal, 20)
                         .padding(.vertical, 14)
                         .frame(width: 353, alignment: .center)
-                        .background(Color.orange)
+                        .background(isNearMission() ? Color.yellow : Color.gray) // 조건에 따라 색상 변경
                         .cornerRadius(12)
-                })
+                }
+                .disabled(!isNearMission()) // 조건에 따라 비활성화
+
                 
                 Spacer()
                 
@@ -106,6 +108,15 @@ struct MissionInfoView: View {
             .toolbar(.hidden, for: .tabBar)
             .toolbarBackground(.hidden, for: .navigationBar)
         }
+    }
+    
+    // 현재 위치와 미션 위치가 가까운지 확인하는 함수
+    private func isNearMission() -> Bool {
+        guard let currentLocation = locationManager.location else { return false }
+        let missionLocation = CLLocation(latitude: selectedMission!.latitude, longitude: selectedMission!.longitude)
+        
+        let distance = currentLocation.distance(from: missionLocation) // 미터 단위
+        return distance < 100 // 100미터 이내면 true
     }
 }
 
