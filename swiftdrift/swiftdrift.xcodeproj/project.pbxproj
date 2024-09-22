@@ -16,7 +16,6 @@
 		DE3214682C9F0D4E0072507F /* MissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214672C9F0D4E0072507F /* MissionModel.swift */; };
 		DE32146A2C9F32FC0072507F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214692C9F32FC0072507F /* LocationManager.swift */; };
 		DE3214722C9F478D0072507F /* swiftdrift1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE3214712C9F478D0072507F /* swiftdrift1.mlmodel */; };
-		DE3214742C9FD49C0072507F /* 정문.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE3214732C9FD49C0072507F /* 정문.jpeg */; };
 		DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */; };
 		DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */; };
 		DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */; };
@@ -25,6 +24,10 @@
 		DEB4FDF72C986235006AEFF4 /* HobanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF62C986235006AEFF4 /* HobanView.swift */; };
 		DEB4FDF92C9876BF006AEFF4 /* MissionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */; };
 		DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */; };
+		DED572A92CA00C0D00D1A728 /* 솔로문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A52CA00C0D00D1A728 /* 솔로문.png */; };
+		DED572AA2CA00C0D00D1A728 /* 북문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A62CA00C0D00D1A728 /* 북문.png */; };
+		DED572AB2CA00C0D00D1A728 /* 정문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A72CA00C0D00D1A728 /* 정문.png */; };
+		DED572AC2CA00C0D00D1A728 /* 서문.png in Resources */ = {isa = PBXBuildFile; fileRef = DED572A82CA00C0D00D1A728 /* 서문.png */; };
 		DED5F0B62C9CF77F0018E0BF /* MissionPerformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */; };
 		DED5F0B82C9D03D20018E0BF /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B72C9D03D20018E0BF /* CameraViewModel.swift */; };
 		DED5F0BA2C9D03FB0018E0BF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5F0B92C9D03FB0018E0BF /* Camera.swift */; };
@@ -41,7 +44,6 @@
 		DE3214672C9F0D4E0072507F /* MissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModel.swift; sourceTree = "<group>"; };
 		DE3214692C9F32FC0072507F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DE3214712C9F478D0072507F /* swiftdrift1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = swiftdrift1.mlmodel; sourceTree = "<group>"; };
-		DE3214732C9FD49C0072507F /* 정문.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "정문.jpeg"; sourceTree = "<group>"; };
 		DEB4FDE32C985CE9006AEFF4 /* swiftdrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftdrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftdriftApp.swift; sourceTree = "<group>"; };
 		DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		DEB4FDF62C986235006AEFF4 /* HobanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobanView.swift; sourceTree = "<group>"; };
 		DEB4FDF82C9876BF006AEFF4 /* MissionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInfoView.swift; sourceTree = "<group>"; };
 		DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hobanwoo.jpeg; path = swiftdrift/hobanwoo.jpeg; sourceTree = SOURCE_ROOT; };
+		DED572A52CA00C0D00D1A728 /* 솔로문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "솔로문.png"; sourceTree = "<group>"; };
+		DED572A62CA00C0D00D1A728 /* 북문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "북문.png"; sourceTree = "<group>"; };
+		DED572A72CA00C0D00D1A728 /* 정문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "정문.png"; sourceTree = "<group>"; };
+		DED572A82CA00C0D00D1A728 /* 서문.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "서문.png"; sourceTree = "<group>"; };
 		DED5F0B52C9CF77F0018E0BF /* MissionPerformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionPerformView.swift; sourceTree = "<group>"; };
 		DED5F0B72C9D03D20018E0BF /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 		DED5F0B92C9D03FB0018E0BF /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
@@ -130,7 +136,10 @@
 				DE3214632C9EF6ED0072507F /* SwiftUIView.swift */,
 				DE3214712C9F478D0072507F /* swiftdrift1.mlmodel */,
 				DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */,
-				DE3214732C9FD49C0072507F /* 정문.jpeg */,
+				DED572A62CA00C0D00D1A728 /* 북문.png */,
+				DED572A82CA00C0D00D1A728 /* 서문.png */,
+				DED572A52CA00C0D00D1A728 /* 솔로문.png */,
+				DED572A72CA00C0D00D1A728 /* 정문.png */,
 				DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */,
 				DEB4FDEC2C985CEA006AEFF4 /* Preview Content */,
 			);
@@ -204,9 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB4FDEE2C985CEA006AEFF4 /* Preview Assets.xcassets in Resources */,
+				DED572AC2CA00C0D00D1A728 /* 서문.png in Resources */,
 				DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */,
+				DED572A92CA00C0D00D1A728 /* 솔로문.png in Resources */,
 				DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */,
-				DE3214742C9FD49C0072507F /* 정문.jpeg in Resources */,
+				DED572AB2CA00C0D00D1A728 /* 정문.png in Resources */,
+				DED572AA2CA00C0D00D1A728 /* 북문.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
