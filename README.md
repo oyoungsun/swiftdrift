@@ -78,10 +78,10 @@
 <!-- USAGE EXAMPLES -->
 <a id="expected-outcome"></a>
 ## Expected Outcome
-
-TBD
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+* 신입생들이 학교에 빠르게 적응하고 불안감을 줄이는 데 도움을 줍니다.
+* 미션을 통해 학교의 주요 시설과 문화를 자연스럽게 익힙니다.
+* 재미있는 미션을 통해 긍정적인 학교 이미지를 형성하고 자신감을 키웁니다.
+* 친구들과 함께 플레이하며 사회적 네트워크를 형성합니다.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
