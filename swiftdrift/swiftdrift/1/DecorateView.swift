@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DecorateView: View {
     @State var selectedDeco: String!
+    @State private var selectedImage: String? // 선택한 이미지 상태
     
     
     var door: [String] = ["정문", "북문","쪽문", "나리문", "동문"]
@@ -74,6 +75,7 @@ struct DecorateView: View {
                                             }
                                         })
                                     }
+
                                 }
                             )
                         }
