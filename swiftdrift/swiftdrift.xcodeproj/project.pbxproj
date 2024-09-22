@@ -15,6 +15,7 @@
 		DE3214682C9F0D4E0072507F /* MissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214672C9F0D4E0072507F /* MissionModel.swift */; };
 		DE32146A2C9F32FC0072507F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3214692C9F32FC0072507F /* LocationManager.swift */; };
 		DE3214722C9F478D0072507F /* swiftdrift1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE3214712C9F478D0072507F /* swiftdrift1.mlmodel */; };
+		DE3214742C9FD49C0072507F /* 정문.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE3214732C9FD49C0072507F /* 정문.jpeg */; };
 		DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */; };
 		DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */; };
 		DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		DE3214672C9F0D4E0072507F /* MissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModel.swift; sourceTree = "<group>"; };
 		DE3214692C9F32FC0072507F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DE3214712C9F478D0072507F /* swiftdrift1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = swiftdrift1.mlmodel; sourceTree = "<group>"; };
+		DE3214732C9FD49C0072507F /* 정문.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "정문.jpeg"; sourceTree = "<group>"; };
 		DEB4FDE32C985CE9006AEFF4 /* swiftdrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftdrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB4FDE62C985CE9006AEFF4 /* swiftdriftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftdriftApp.swift; sourceTree = "<group>"; };
 		DEB4FDE82C985CE9006AEFF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				DE3214632C9EF6ED0072507F /* SwiftUIView.swift */,
 				DE3214712C9F478D0072507F /* swiftdrift1.mlmodel */,
 				DEB4FDEA2C985CEA006AEFF4 /* Assets.xcassets */,
+				DE3214732C9FD49C0072507F /* 정문.jpeg */,
 				DEB4FDFA2C987AC9006AEFF4 /* hobanwoo.jpeg */,
 				DEB4FDEC2C985CEA006AEFF4 /* Preview Content */,
 			);
@@ -200,6 +203,7 @@
 				DEB4FDEE2C985CEA006AEFF4 /* Preview Assets.xcassets in Resources */,
 				DEB4FDFB2C987AC9006AEFF4 /* hobanwoo.jpeg in Resources */,
 				DEB4FDEB2C985CEA006AEFF4 /* Assets.xcassets in Resources */,
+				DE3214742C9FD49C0072507F /* 정문.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

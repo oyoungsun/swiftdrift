@@ -59,8 +59,15 @@ struct MissonView: View {
                                 NavigationLink(destination: MissionInfoView(selectedMission: $selectedMission),
                                                label:{
                                     VStack {
-                                        RoundedRectangle(cornerRadius: 10)
-                                            .frame(width: 100, height: 100)
+                                        
+                                        ZStack{
+                                            RoundedRectangle(cornerRadius: 10)
+                                            Image(mission.name)
+                                                .resizable()
+                                                .scaledToFit()
+
+                                                .frame(width: 100, height: 100)
+                                        }
                                         
                                         Text(mission.name)
                                             .foregroundColor(.secondary)
