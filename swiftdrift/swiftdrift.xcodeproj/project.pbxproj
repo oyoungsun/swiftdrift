@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28EAF5DB2C9FCA8F0014B608 /* FoodRecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EAF5DA2C9FCA8F0014B608 /* FoodRecommendationView.swift */; };
+		28EAF5DD2C9FCA9C0014B608 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EAF5DC2C9FCA9C0014B608 /* MailView.swift */; };
 		DE32145B2C9D50B70072507F /* NewCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145A2C9D50B70072507F /* NewCamera.swift */; };
 		DE32145E2C9D53280072507F /* MosuDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145D2C9D53280072507F /* MosuDataModel.swift */; };
 		DE3214602C9D54670072507F /* ViewFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145F2C9D54670072507F /* ViewFinderView.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28EAF5DA2C9FCA8F0014B608 /* FoodRecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecommendationView.swift; sourceTree = "<group>"; };
+		28EAF5DC2C9FCA9C0014B608 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		DE32145A2C9D50B70072507F /* NewCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCamera.swift; sourceTree = "<group>"; };
 		DE32145D2C9D53280072507F /* MosuDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosuDataModel.swift; sourceTree = "<group>"; };
 		DE32145F2C9D54670072507F /* ViewFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				DE32145A2C9D50B70072507F /* NewCamera.swift */,
 				DE32145F2C9D54670072507F /* ViewFinderView.swift */,
 				DE32145D2C9D53280072507F /* MosuDataModel.swift */,
+				28EAF5DA2C9FCA8F0014B608 /* FoodRecommendationView.swift */,
+				28EAF5DC2C9FCA9C0014B608 /* MailView.swift */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -214,6 +220,7 @@
 				DEB4FDF92C9876BF006AEFF4 /* MissionInfoView.swift in Sources */,
 				DEB4FDF52C9861F9006AEFF4 /* MissonView.swift in Sources */,
 				DE3214722C9F478D0072507F /* swiftdrift1.mlmodel in Sources */,
+				28EAF5DD2C9FCA9C0014B608 /* MailView.swift in Sources */,
 				DED5F0BC2C9D043B0018E0BF /* NewCameraView.swift in Sources */,
 				DE32146A2C9F32FC0072507F /* LocationManager.swift in Sources */,
 				DED5F0B62C9CF77F0018E0BF /* MissionPerformView.swift in Sources */,
@@ -223,6 +230,7 @@
 				DE3214642C9EF6ED0072507F /* SwiftUIView.swift in Sources */,
 				DE32145E2C9D53280072507F /* MosuDataModel.swift in Sources */,
 				DE3214622C9ECE110072507F /* DecorateView.swift in Sources */,
+				28EAF5DB2C9FCA8F0014B608 /* FoodRecommendationView.swift in Sources */,
 				DE3214682C9F0D4E0072507F /* MissionModel.swift in Sources */,
 				DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */,
 				DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */,

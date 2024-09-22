@@ -33,6 +33,9 @@ struct MissonView: View {
     var mission2: [Mission] {
         missions.filter { $0.tag == 2 }
     }
+    var mission3: [Mission] {
+        missions.filter { $0.tag == 3 }
+    }
     
     var body: some View {
         VStack{
@@ -92,6 +95,24 @@ struct MissonView: View {
                                     }
                                 })
                                 .simultaneousGesture(TapGesture().onEnded{ selectedMission = mission })
+                            }
+                        }
+                        Section(header: Text("📍 나만의 경북대 명소 추천하기")
+                                                .foregroundStyle(Color.gray)
+                                                .font(.title3)
+                                                .fontWeight(.bold)
+                                                .padding(.top, 20)
+                        ) {
+                            ForEach(mission3, id: \.name) { mission in
+                                NavigationLink(destination: FoodRecommendationView()) {
+                                    VStack {
+                                        RoundedRectangle(cornerRadius: 10)
+                                            .frame(width: 100, height: 100)
+                                        
+                                        Text(mission.name)
+                                            .foregroundColor(.secondary)
+                                    }
+                                }
                             }
                         }
                     })
