@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28EAF65B2C9FDACC0014B608 /* ImageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EAF65A2C9FDACC0014B608 /* ImageSelectionView.swift */; };
 		DE32145B2C9D50B70072507F /* NewCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145A2C9D50B70072507F /* NewCamera.swift */; };
 		DE32145E2C9D53280072507F /* MosuDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145D2C9D53280072507F /* MosuDataModel.swift */; };
 		DE3214602C9D54670072507F /* ViewFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32145F2C9D54670072507F /* ViewFinderView.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28EAF65A2C9FDACC0014B608 /* ImageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionView.swift; sourceTree = "<group>"; };
 		DE32145A2C9D50B70072507F /* NewCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCamera.swift; sourceTree = "<group>"; };
 		DE32145D2C9D53280072507F /* MosuDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosuDataModel.swift; sourceTree = "<group>"; };
 		DE32145F2C9D54670072507F /* ViewFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				DEB4FDF62C986235006AEFF4 /* HobanView.swift */,
 				DE3214612C9ECE110072507F /* DecorateView.swift */,
+				28EAF65A2C9FDACC0014B608 /* ImageSelectionView.swift */,
 			);
 			path = 1;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				DE3214642C9EF6ED0072507F /* SwiftUIView.swift in Sources */,
 				DE32145E2C9D53280072507F /* MosuDataModel.swift in Sources */,
 				DE3214622C9ECE110072507F /* DecorateView.swift in Sources */,
+				28EAF65B2C9FDACC0014B608 /* ImageSelectionView.swift in Sources */,
 				DE3214682C9F0D4E0072507F /* MissionModel.swift in Sources */,
 				DEB4FDE92C985CE9006AEFF4 /* ContentView.swift in Sources */,
 				DEB4FDE72C985CE9006AEFF4 /* swiftdriftApp.swift in Sources */,
