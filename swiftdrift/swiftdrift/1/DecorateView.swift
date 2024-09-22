@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DecorateView: View {
     @State var selectedDeco: String!
+    @State private var selectedImage: String? // 선택한 이미지 상태
     
     
     var door: [String] = ["정문", "북문","쪽문", "나리문", "동문"]
@@ -30,6 +31,18 @@ struct DecorateView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 250)
+                .overlay(
+                    Group {
+                        if let selectedImage = selectedImage {
+                            Image(selectedImage) // 선택한 이미지
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 50) // 원하는 크기로 조정
+                                .padding() // 필요에 따라 패딩 조정
+                                .offset(y: -20) // 위로 30px 이동
+                        }
+                    }, alignment: .top // 오버레이의 정렬 위치를 위쪽으로 설정
+                )
             Text("Hello, World!")
             
             ZStack{
@@ -54,8 +67,8 @@ struct DecorateView: View {
                             content: {
                                 
                                 ForEach(door, id: \.self) {i in
-                                    NavigationLink(destination: EmptyView(),
-                                                   label:{
+                                    NavigationLink(destination: ImageSelectionView(selectedImage: $selectedImage), label: {
+
                                         VStack {
                                             RoundedRectangle(cornerRadius: 10)
                                                 .frame(width: 60, height: 60)
