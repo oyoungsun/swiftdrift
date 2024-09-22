@@ -22,12 +22,12 @@ struct NewCameraView: View {
     var missionName: String
     
     @Query var missions: [Mission]
-
+    
     
     var filteredMission: Mission? {
         return self.missions.filter({ $0.name == missionName }).first
     }
-
+    
     
     var body: some View {
         GeometryReader { geometry in
@@ -136,7 +136,7 @@ struct NewCameraView: View {
             Text("\(model.resultString)를 찾았어요!🎉🎉")
                 .font(.title3)
                 .padding(.vertical)
-
+            
             HStack(spacing: 10) {
                 Button{
                     isfounded.toggle()
@@ -149,13 +149,8 @@ struct NewCameraView: View {
                         .cornerRadius(20)
                 }
                 
-                Button{
-                    isfounded.toggle()
-                    model.resultString = ""
-                    filteredMission!.pass = true
-//                    cat.meetCount += 1
-                    
-                } label: {
+                NavigationLink(destination: ContentView().toolbar(.hidden, for: .navigationBar)
+) {
                     Text("도감에 추가하기!")
                         .font(.title3)
                         .fontWeight(.bold)
@@ -164,6 +159,14 @@ struct NewCameraView: View {
                         .background(Color.accentColor)
                         .cornerRadius(20)
                 }
+                .simultaneousGesture(TapGesture().onEnded{
+                    isfounded.toggle()
+                    model.resultString = ""
+                    filteredMission!.pass = true })
+                
+                
+                
+                
             }
             Spacer().frame(height:20)
             
